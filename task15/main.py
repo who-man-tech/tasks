@@ -1,3 +1,6 @@
+# Задание №15
+
+
 def get_numbers(n, prompt="Enter number: "):
     a = []
     while n > 0:
@@ -19,7 +22,7 @@ def transform(a):
     k3 = []
     k4 = []
     for i, x in enumerate(a):
-        if i % 2 == 0: # Even
+        if i % 2 == 0:  # Even
             if x < 0:
                 k2.append(x)
             else:
