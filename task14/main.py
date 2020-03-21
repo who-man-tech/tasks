@@ -1,4 +1,4 @@
-# Задание №13
+# Задание №14
 
 
 def fill():
@@ -6,10 +6,10 @@ def fill():
     for r in range(0, 6):
         a.append([])
         for c in range(0, 6):
-            if (r + 1) % 3 > 0:
-                a[r].append(1)
-            else:
+            if (r + 1) % 3 == 0:
                 a[r].append(0)
+            else:
+                a[r].append(1)
 
     return a
 
